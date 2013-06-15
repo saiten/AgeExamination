@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E15DEDAE176C1CAE00EE667A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDAD176C1CAE00EE667A /* UIKit.framework */; };
+		E15DEDB0176C1CAE00EE667A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDAF176C1CAE00EE667A /* Foundation.framework */; };
+		E15DEDB2176C1CAE00EE667A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDB1176C1CAE00EE667A /* CoreGraphics.framework */; };
+		E15DEDB4176C1CAE00EE667A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDB3176C1CAE00EE667A /* CoreData.framework */; };
+		E15DEDBA176C1CAE00EE667A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E15DEDB8176C1CAE00EE667A /* InfoPlist.strings */; };
+		E15DEDBC176C1CAE00EE667A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDBB176C1CAE00EE667A /* main.m */; };
+		E15DEDC0176C1CAE00EE667A /* AEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDBF176C1CAE00EE667A /* AEAppDelegate.m */; };
+		E15DEDC2176C1CAE00EE667A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E15DEDC1176C1CAE00EE667A /* Default.png */; };
+		E15DEDC4176C1CAE00EE667A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E15DEDC3176C1CAE00EE667A /* Default@2x.png */; };
+		E15DEDC6176C1CAE00EE667A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E15DEDC5176C1CAE00EE667A /* Default-568h@2x.png */; };
+		E15DEDC9176C1CAE00EE667A /* AgeExamination.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDC7176C1CAE00EE667A /* AgeExamination.xcdatamodeld */; };
+		E15DEDD1176C1CAF00EE667A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDD0176C1CAF00EE667A /* SenTestingKit.framework */; };
+		E15DEDD2176C1CAF00EE667A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDAD176C1CAE00EE667A /* UIKit.framework */; };
+		E15DEDD3176C1CAF00EE667A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDAF176C1CAE00EE667A /* Foundation.framework */; };
+		E15DEDD4176C1CAF00EE667A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDB3176C1CAE00EE667A /* CoreData.framework */; };
+		E15DEDDC176C1CAF00EE667A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E15DEDDA176C1CAF00EE667A /* InfoPlist.strings */; };
+		E15DEDDF176C1CAF00EE667A /* AgeExaminationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDDE176C1CAF00EE667A /* AgeExaminationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E15DEDD5176C1CAF00EE667A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15DEDA2176C1CAE00EE667A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15DEDA9176C1CAE00EE667A;
+			remoteInfo = AgeExamination;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E15DEDAA176C1CAE00EE667A /* AgeExamination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeExamination.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15DEDAD176C1CAE00EE667A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E15DEDAF176C1CAE00EE667A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E15DEDB1176C1CAE00EE667A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E15DEDB3176C1CAE00EE667A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E15DEDB7176C1CAE00EE667A /* AgeExamination-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AgeExamination-Info.plist"; sourceTree = "<group>"; };
+		E15DEDB9176C1CAE00EE667A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E15DEDBB176C1CAE00EE667A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E15DEDBD176C1CAE00EE667A /* AgeExamination-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AgeExamination-Prefix.pch"; sourceTree = "<group>"; };
+		E15DEDBE176C1CAE00EE667A /* AEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEAppDelegate.h; sourceTree = "<group>"; };
+		E15DEDBF176C1CAE00EE667A /* AEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEAppDelegate.m; sourceTree = "<group>"; };
+		E15DEDC1176C1CAE00EE667A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E15DEDC3176C1CAE00EE667A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E15DEDC5176C1CAE00EE667A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E15DEDC8176C1CAE00EE667A /* AgeExamination.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AgeExamination.xcdatamodel; sourceTree = "<group>"; };
+		E15DEDCF176C1CAF00EE667A /* AgeExaminationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeExaminationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15DEDD0176C1CAF00EE667A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E15DEDD9176C1CAF00EE667A /* AgeExaminationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AgeExaminationTests-Info.plist"; sourceTree = "<group>"; };
+		E15DEDDB176C1CAF00EE667A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E15DEDDD176C1CAF00EE667A /* AgeExaminationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgeExaminationTests.h; sourceTree = "<group>"; };
+		E15DEDDE176C1CAF00EE667A /* AgeExaminationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgeExaminationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15DEDA7176C1CAE00EE667A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15DEDAE176C1CAE00EE667A /* UIKit.framework in Frameworks */,
+				E15DEDB0176C1CAE00EE667A /* Foundation.framework in Frameworks */,
+				E15DEDB2176C1CAE00EE667A /* CoreGraphics.framework in Frameworks */,
+				E15DEDB4176C1CAE00EE667A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DEDCB176C1CAF00EE667A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15DEDD1176C1CAF00EE667A /* SenTestingKit.framework in Frameworks */,
+				E15DEDD2176C1CAF00EE667A /* UIKit.framework in Frameworks */,
+				E15DEDD3176C1CAF00EE667A /* Foundation.framework in Frameworks */,
+				E15DEDD4176C1CAF00EE667A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E15DEDA1176C1CAE00EE667A = {
+			isa = PBXGroup;
+			children = (
+				E15DEDB5176C1CAE00EE667A /* AgeExamination */,
+				E15DEDD7176C1CAF00EE667A /* AgeExaminationTests */,
+				E15DEDAC176C1CAE00EE667A /* Frameworks */,
+				E15DEDAB176C1CAE00EE667A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E15DEDAB176C1CAE00EE667A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15DEDAA176C1CAE00EE667A /* AgeExamination.app */,
+				E15DEDCF176C1CAF00EE667A /* AgeExaminationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E15DEDAC176C1CAE00EE667A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E15DEDAD176C1CAE00EE667A /* UIKit.framework */,
+				E15DEDAF176C1CAE00EE667A /* Foundation.framework */,
+				E15DEDB1176C1CAE00EE667A /* CoreGraphics.framework */,
+				E15DEDB3176C1CAE00EE667A /* CoreData.framework */,
+				E15DEDD0176C1CAF00EE667A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E15DEDB5176C1CAE00EE667A /* AgeExamination */ = {
+			isa = PBXGroup;
+			children = (
+				E15DEDBE176C1CAE00EE667A /* AEAppDelegate.h */,
+				E15DEDBF176C1CAE00EE667A /* AEAppDelegate.m */,
+				E15DEDC7176C1CAE00EE667A /* AgeExamination.xcdatamodeld */,
+				E15DEDB6176C1CAE00EE667A /* Supporting Files */,
+			);
+			path = AgeExamination;
+			sourceTree = "<group>";
+		};
+		E15DEDB6176C1CAE00EE667A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E15DEDB7176C1CAE00EE667A /* AgeExamination-Info.plist */,
+				E15DEDB8176C1CAE00EE667A /* InfoPlist.strings */,
+				E15DEDBB176C1CAE00EE667A /* main.m */,
+				E15DEDBD176C1CAE00EE667A /* AgeExamination-Prefix.pch */,
+				E15DEDC1176C1CAE00EE667A /* Default.png */,
+				E15DEDC3176C1CAE00EE667A /* Default@2x.png */,
+				E15DEDC5176C1CAE00EE667A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E15DEDD7176C1CAF00EE667A /* AgeExaminationTests */ = {
+			isa = PBXGroup;
+			children = (
+				E15DEDDD176C1CAF00EE667A /* AgeExaminationTests.h */,
+				E15DEDDE176C1CAF00EE667A /* AgeExaminationTests.m */,
+				E15DEDD8176C1CAF00EE667A /* Supporting Files */,
+			);
+			path = AgeExaminationTests;
+			sourceTree = "<group>";
+		};
+		E15DEDD8176C1CAF00EE667A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E15DEDD9176C1CAF00EE667A /* AgeExaminationTests-Info.plist */,
+				E15DEDDA176C1CAF00EE667A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E15DEDA9176C1CAE00EE667A /* AgeExamination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15DEDE2176C1CAF00EE667A /* Build configuration list for PBXNativeTarget "AgeExamination" */;
+			buildPhases = (
+				E15DEDA6176C1CAE00EE667A /* Sources */,
+				E15DEDA7176C1CAE00EE667A /* Frameworks */,
+				E15DEDA8176C1CAE00EE667A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgeExamination;
+			productName = AgeExamination;
+			productReference = E15DEDAA176C1CAE00EE667A /* AgeExamination.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E15DEDCE176C1CAF00EE667A /* AgeExaminationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15DEDE5176C1CAF00EE667A /* Build configuration list for PBXNativeTarget "AgeExaminationTests" */;
+			buildPhases = (
+				E15DEDCA176C1CAF00EE667A /* Sources */,
+				E15DEDCB176C1CAF00EE667A /* Frameworks */,
+				E15DEDCC176C1CAF00EE667A /* Resources */,
+				E15DEDCD176C1CAF00EE667A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15DEDD6176C1CAF00EE667A /* PBXTargetDependency */,
+			);
+			name = AgeExaminationTests;
+			productName = AgeExaminationTests;
+			productReference = E15DEDCF176C1CAF00EE667A /* AgeExaminationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E15DEDA2176C1CAE00EE667A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AE;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = saiten;
+			};
+			buildConfigurationList = E15DEDA5176C1CAE00EE667A /* Build configuration list for PBXProject "AgeExamination" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E15DEDA1176C1CAE00EE667A;
+			productRefGroup = E15DEDAB176C1CAE00EE667A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E15DEDA9176C1CAE00EE667A /* AgeExamination */,
+				E15DEDCE176C1CAF00EE667A /* AgeExaminationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15DEDA8176C1CAE00EE667A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15DEDBA176C1CAE00EE667A /* InfoPlist.strings in Resources */,
+				E15DEDC2176C1CAE00EE667A /* Default.png in Resources */,
+				E15DEDC4176C1CAE00EE667A /* Default@2x.png in Resources */,
+				E15DEDC6176C1CAE00EE667A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DEDCC176C1CAF00EE667A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15DEDDC176C1CAF00EE667A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E15DEDCD176C1CAF00EE667A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15DEDA6176C1CAE00EE667A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15DEDBC176C1CAE00EE667A /* main.m in Sources */,
+				E15DEDC0176C1CAE00EE667A /* AEAppDelegate.m in Sources */,
+				E15DEDC9176C1CAE00EE667A /* AgeExamination.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DEDCA176C1CAF00EE667A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15DEDDF176C1CAF00EE667A /* AgeExaminationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E15DEDD6176C1CAF00EE667A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15DEDA9176C1CAE00EE667A /* AgeExamination */;
+			targetProxy = E15DEDD5176C1CAF00EE667A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E15DEDB8176C1CAE00EE667A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15DEDB9176C1CAE00EE667A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E15DEDDA176C1CAF00EE667A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15DEDDB176C1CAF00EE667A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E15DEDE0176C1CAF00EE667A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E15DEDE1176C1CAF00EE667A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E15DEDE3176C1CAF00EE667A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgeExamination/AgeExamination-Prefix.pch";
+				INFOPLIST_FILE = "AgeExamination/AgeExamination-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E15DEDE4176C1CAF00EE667A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgeExamination/AgeExamination-Prefix.pch";
+				INFOPLIST_FILE = "AgeExamination/AgeExamination-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E15DEDE6176C1CAF00EE667A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AgeExamination.app/AgeExamination";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgeExamination/AgeExamination-Prefix.pch";
+				INFOPLIST_FILE = "AgeExaminationTests/AgeExaminationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E15DEDE7176C1CAF00EE667A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AgeExamination.app/AgeExamination";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgeExamination/AgeExamination-Prefix.pch";
+				INFOPLIST_FILE = "AgeExaminationTests/AgeExaminationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E15DEDA5176C1CAE00EE667A /* Build configuration list for PBXProject "AgeExamination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DEDE0176C1CAF00EE667A /* Debug */,
+				E15DEDE1176C1CAF00EE667A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15DEDE2176C1CAF00EE667A /* Build configuration list for PBXNativeTarget "AgeExamination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DEDE3176C1CAF00EE667A /* Debug */,
+				E15DEDE4176C1CAF00EE667A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E15DEDE5176C1CAF00EE667A /* Build configuration list for PBXNativeTarget "AgeExaminationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DEDE6176C1CAF00EE667A /* Debug */,
+				E15DEDE7176C1CAF00EE667A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E15DEDC7176C1CAE00EE667A /* AgeExamination.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E15DEDC8176C1CAE00EE667A /* AgeExamination.xcdatamodel */,
+			);
+			currentVersion = E15DEDC8176C1CAE00EE667A /* AgeExamination.xcdatamodel */;
+			path = AgeExamination.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E15DEDA2176C1CAE00EE667A /* Project object */;
+}
