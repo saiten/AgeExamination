@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28E1C2164FE14BBCA18BA41C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4410634DE989453094E66212 /* libPods.a */; };
+		3EB44C8D8370422CAAE454AA /* libPods-AgeExaminationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC17F73CF02406C9045A176 /* libPods-AgeExaminationTests.a */; };
 		E15DEDAE176C1CAE00EE667A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDAD176C1CAE00EE667A /* UIKit.framework */; };
 		E15DEDB0176C1CAE00EE667A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDAF176C1CAE00EE667A /* Foundation.framework */; };
 		E15DEDB2176C1CAE00EE667A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDB1176C1CAE00EE667A /* CoreGraphics.framework */; };
@@ -24,6 +26,15 @@
 		E15DEDD4176C1CAF00EE667A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDB3176C1CAE00EE667A /* CoreData.framework */; };
 		E15DEDDC176C1CAF00EE667A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E15DEDDA176C1CAF00EE667A /* InfoPlist.strings */; };
 		E15DEDDF176C1CAF00EE667A /* AgeExaminationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDDE176C1CAF00EE667A /* AgeExaminationTests.m */; };
+		E15DEDF1176C203100EE667A /* _AEResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDEA176C203100EE667A /* _AEResult.m */; };
+		E15DEDF2176C203100EE667A /* _AEResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDEA176C203100EE667A /* _AEResult.m */; };
+		E15DEDF3176C203100EE667A /* _AEUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDEC176C203100EE667A /* _AEUser.m */; };
+		E15DEDF4176C203100EE667A /* _AEUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDEC176C203100EE667A /* _AEUser.m */; };
+		E15DEDF5176C203100EE667A /* AEResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDEE176C203100EE667A /* AEResult.m */; };
+		E15DEDF6176C203100EE667A /* AEResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDEE176C203100EE667A /* AEResult.m */; };
+		E15DEDF7176C203100EE667A /* AEUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDF0176C203100EE667A /* AEUser.m */; };
+		E15DEDF8176C203100EE667A /* AEUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDF0176C203100EE667A /* AEUser.m */; };
+		E1EEBC20176C25F00048A22B /* AgeExamination.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EEBC1F176C25F00048A22B /* AgeExamination.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4410634DE989453094E66212 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C34BB2BA5548709EF4BAFB /* Pods-AgeExaminationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgeExaminationTests.xcconfig"; path = "Pods/Pods-AgeExaminationTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		AAC17F73CF02406C9045A176 /* libPods-AgeExaminationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgeExaminationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15DEDAA176C1CAE00EE667A /* AgeExamination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeExamination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15DEDAD176C1CAE00EE667A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E15DEDAF176C1CAE00EE667A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +72,16 @@
 		E15DEDDB176C1CAF00EE667A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E15DEDDD176C1CAF00EE667A /* AgeExaminationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgeExaminationTests.h; sourceTree = "<group>"; };
 		E15DEDDE176C1CAF00EE667A /* AgeExaminationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgeExaminationTests.m; sourceTree = "<group>"; };
+		E15DEDE9176C203100EE667A /* _AEResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _AEResult.h; sourceTree = "<group>"; };
+		E15DEDEA176C203100EE667A /* _AEResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _AEResult.m; sourceTree = "<group>"; };
+		E15DEDEB176C203100EE667A /* _AEUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _AEUser.h; sourceTree = "<group>"; };
+		E15DEDEC176C203100EE667A /* _AEUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _AEUser.m; sourceTree = "<group>"; };
+		E15DEDED176C203100EE667A /* AEResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEResult.h; sourceTree = "<group>"; };
+		E15DEDEE176C203100EE667A /* AEResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEResult.m; sourceTree = "<group>"; };
+		E15DEDEF176C203100EE667A /* AEUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEUser.h; sourceTree = "<group>"; };
+		E15DEDF0176C203100EE667A /* AEUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEUser.m; sourceTree = "<group>"; };
+		E1EEBC1F176C25F00048A22B /* AgeExamination.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AgeExamination.storyboard; sourceTree = "<group>"; };
+		F6358D39D38F454EB7B677BB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +93,7 @@
 				E15DEDB0176C1CAE00EE667A /* Foundation.framework in Frameworks */,
 				E15DEDB2176C1CAE00EE667A /* CoreGraphics.framework in Frameworks */,
 				E15DEDB4176C1CAE00EE667A /* CoreData.framework in Frameworks */,
+				28E1C2164FE14BBCA18BA41C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +105,7 @@
 				E15DEDD2176C1CAF00EE667A /* UIKit.framework in Frameworks */,
 				E15DEDD3176C1CAF00EE667A /* Foundation.framework in Frameworks */,
 				E15DEDD4176C1CAF00EE667A /* CoreData.framework in Frameworks */,
+				3EB44C8D8370422CAAE454AA /* libPods-AgeExaminationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +119,8 @@
 				E15DEDD7176C1CAF00EE667A /* AgeExaminationTests */,
 				E15DEDAC176C1CAE00EE667A /* Frameworks */,
 				E15DEDAB176C1CAE00EE667A /* Products */,
+				F6358D39D38F454EB7B677BB /* Pods.xcconfig */,
+				86C34BB2BA5548709EF4BAFB /* Pods-AgeExaminationTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +141,8 @@
 				E15DEDB1176C1CAE00EE667A /* CoreGraphics.framework */,
 				E15DEDB3176C1CAE00EE667A /* CoreData.framework */,
 				E15DEDD0176C1CAF00EE667A /* SenTestingKit.framework */,
+				4410634DE989453094E66212 /* libPods.a */,
+				AAC17F73CF02406C9045A176 /* libPods-AgeExaminationTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,10 +150,12 @@
 		E15DEDB5176C1CAE00EE667A /* AgeExamination */ = {
 			isa = PBXGroup;
 			children = (
+				E15DEDE8176C203100EE667A /* Models */,
 				E15DEDBE176C1CAE00EE667A /* AEAppDelegate.h */,
 				E15DEDBF176C1CAE00EE667A /* AEAppDelegate.m */,
 				E15DEDC7176C1CAE00EE667A /* AgeExamination.xcdatamodeld */,
 				E15DEDB6176C1CAE00EE667A /* Supporting Files */,
+				E1EEBC1F176C25F00048A22B /* AgeExamination.storyboard */,
 			);
 			path = AgeExamination;
 			sourceTree = "<group>";
@@ -161,6 +193,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E15DEDE8176C203100EE667A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E15DEDE9176C203100EE667A /* _AEResult.h */,
+				E15DEDEA176C203100EE667A /* _AEResult.m */,
+				E15DEDEB176C203100EE667A /* _AEUser.h */,
+				E15DEDEC176C203100EE667A /* _AEUser.m */,
+				E15DEDED176C203100EE667A /* AEResult.h */,
+				E15DEDEE176C203100EE667A /* AEResult.m */,
+				E15DEDEF176C203100EE667A /* AEUser.h */,
+				E15DEDF0176C203100EE667A /* AEUser.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E15DEDE2176C1CAF00EE667A /* Build configuration list for PBXNativeTarget "AgeExamination" */;
 			buildPhases = (
+				D4DC1017C161452B97539A16 /* Check Pods Manifest.lock */,
 				E15DEDA6176C1CAE00EE667A /* Sources */,
 				E15DEDA7176C1CAE00EE667A /* Frameworks */,
 				E15DEDA8176C1CAE00EE667A /* Resources */,
+				DDB2127EBB04449EA76E0B13 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,10 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E15DEDE5176C1CAF00EE667A /* Build configuration list for PBXNativeTarget "AgeExaminationTests" */;
 			buildPhases = (
+				B4F51250B6CD4FFFB3683325 /* Check Pods Manifest.lock */,
 				E15DEDCA176C1CAF00EE667A /* Sources */,
 				E15DEDCB176C1CAF00EE667A /* Frameworks */,
 				E15DEDCC176C1CAF00EE667A /* Resources */,
 				E15DEDCD176C1CAF00EE667A /* ShellScript */,
+				E01326045349410E8F90D4F4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +288,7 @@
 				E15DEDC2176C1CAE00EE667A /* Default.png in Resources */,
 				E15DEDC4176C1CAE00EE667A /* Default@2x.png in Resources */,
 				E15DEDC6176C1CAE00EE667A /* Default-568h@2x.png in Resources */,
+				E1EEBC20176C25F00048A22B /* AgeExamination.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +303,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		B4F51250B6CD4FFFB3683325 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		D4DC1017C161452B97539A16 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		DDB2127EBB04449EA76E0B13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		E01326045349410E8F90D4F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-AgeExaminationTests-resources.sh\"\n";
+		};
 		E15DEDCD176C1CAF00EE667A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +382,10 @@
 				E15DEDBC176C1CAE00EE667A /* main.m in Sources */,
 				E15DEDC0176C1CAE00EE667A /* AEAppDelegate.m in Sources */,
 				E15DEDC9176C1CAE00EE667A /* AgeExamination.xcdatamodeld in Sources */,
+				E15DEDF1176C203100EE667A /* _AEResult.m in Sources */,
+				E15DEDF3176C203100EE667A /* _AEUser.m in Sources */,
+				E15DEDF5176C203100EE667A /* AEResult.m in Sources */,
+				E15DEDF7176C203100EE667A /* AEUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +394,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E15DEDDF176C1CAF00EE667A /* AgeExaminationTests.m in Sources */,
+				E15DEDF2176C203100EE667A /* _AEResult.m in Sources */,
+				E15DEDF4176C203100EE667A /* _AEUser.m in Sources */,
+				E15DEDF6176C203100EE667A /* AEResult.m in Sources */,
+				E15DEDF8176C203100EE667A /* AEUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +489,7 @@
 		};
 		E15DEDE3176C1CAF00EE667A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6358D39D38F454EB7B677BB /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AgeExamination/AgeExamination-Prefix.pch";
@@ -384,6 +501,7 @@
 		};
 		E15DEDE4176C1CAF00EE667A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6358D39D38F454EB7B677BB /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AgeExamination/AgeExamination-Prefix.pch";
@@ -395,6 +513,7 @@
 		};
 		E15DEDE6176C1CAF00EE667A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C34BB2BA5548709EF4BAFB /* Pods-AgeExaminationTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AgeExamination.app/AgeExamination";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -412,6 +531,7 @@
 		};
 		E15DEDE7176C1CAF00EE667A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C34BB2BA5548709EF4BAFB /* Pods-AgeExaminationTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AgeExamination.app/AgeExamination";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -446,6 +566,7 @@
 				E15DEDE4176C1CAF00EE667A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E15DEDE5176C1CAF00EE667A /* Build configuration list for PBXNativeTarget "AgeExaminationTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +575,7 @@
 				E15DEDE7176C1CAF00EE667A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
