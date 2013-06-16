@@ -44,7 +44,6 @@
 		E1B771B5176CAD2B0065C5CC /* AECanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771B4176CAD2A0065C5CC /* AECanvasView.m */; };
 		E1B771BB176CAE2F0065C5CC /* ZinniaRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771B8176CAE2F0065C5CC /* ZinniaRecognizer.m */; };
 		E1B771BC176CAE2F0065C5CC /* ZinniaResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771BA176CAE2F0065C5CC /* ZinniaResult.m */; };
-		E1B771C3176CAE7F0065C5CC /* libzinnia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B771C2176CAE730065C5CC /* libzinnia.a */; };
 		E1B771C5176CAF500065C5CC /* number.model in Resources */ = {isa = PBXBuildFile; fileRef = E1B771C4176CAF500065C5CC /* number.model */; };
 		E1B771C8176CB78E0065C5CC /* AECalculateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771C7176CB78D0065C5CC /* AECalculateCell.m */; };
 		E1B771CB176CBFF30065C5CC /* AETalk.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771CA176CBFF30065C5CC /* AETalk.m */; };
@@ -67,6 +66,7 @@
 		E1EEBC2E176C3A8B0048A22B /* AEBalanceTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EEBC2D176C3A8B0048A22B /* AEBalanceTestViewController.m */; };
 		E1EEBC31176C3AAD0048A22B /* AEExaminationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EEBC30176C3AAD0048A22B /* AEExaminationViewController.m */; };
 		E1EEBC33176C40160048A22B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EEBC32176C40160048A22B /* CoreMotion.framework */; };
+		E1F98E69176DAB99005789A2 /* libzinnia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F98E66176DAAF5005789A2 /* libzinnia.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,11 +77,18 @@
 			remoteGlobalIDString = E15DEDA9176C1CAE00EE667A;
 			remoteInfo = AgeExamination;
 		};
-		E1B771C1176CAE730065C5CC /* PBXContainerItemProxy */ = {
+		E1F98E65176DAAF5005789A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E1B771BD176CAE730065C5CC /* zinnia.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = zinnia;
+		};
+		E1F98E67176DAB8D005789A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B771BD176CAE730065C5CC /* zinnia.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = zinnia;
 		};
 /* End PBXContainerItemProxy section */
@@ -135,7 +142,7 @@
 		E1B771B8176CAE2F0065C5CC /* ZinniaRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZinniaRecognizer.m; sourceTree = "<group>"; };
 		E1B771B9176CAE2F0065C5CC /* ZinniaResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZinniaResult.h; sourceTree = "<group>"; };
 		E1B771BA176CAE2F0065C5CC /* ZinniaResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZinniaResult.m; sourceTree = "<group>"; };
-		E1B771BD176CAE730065C5CC /* zinnia.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zinnia.xcodeproj; path = vendor/zinnia/zinnia.xcodeproj; sourceTree = "<group>"; };
+		E1B771BD176CAE730065C5CC /* zinnia.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zinnia.xcodeproj; path = zinnia/zinnia.xcodeproj; sourceTree = "<group>"; };
 		E1B771C4176CAF500065C5CC /* number.model */ = {isa = PBXFileReference; lastKnownFileType = file; name = number.model; path = Resources/number.model; sourceTree = "<group>"; };
 		E1B771C6176CB78D0065C5CC /* AECalculateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AECalculateCell.h; sourceTree = "<group>"; };
 		E1B771C7176CB78D0065C5CC /* AECalculateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AECalculateCell.m; sourceTree = "<group>"; };
@@ -180,7 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1B771C3176CAE7F0065C5CC /* libzinnia.a in Frameworks */,
+				E1F98E69176DAB99005789A2 /* libzinnia.a in Frameworks */,
 				E1B771A2176C5C320065C5CC /* libstdc++.dylib in Frameworks */,
 				E1B771A0176C5B4E0065C5CC /* AudioToolbox.framework in Frameworks */,
 				E1EEBC33176C40160048A22B /* CoreMotion.framework in Frameworks */,
@@ -234,7 +241,6 @@
 			isa = PBXGroup;
 			children = (
 				E1B771A1176C5C320065C5CC /* libstdc++.dylib */,
-				E1B771BD176CAE730065C5CC /* zinnia.xcodeproj */,
 				E1B7719F176C5B4E0065C5CC /* AudioToolbox.framework */,
 				E1EEBC32176C40160048A22B /* CoreMotion.framework */,
 				E15DEDAD176C1CAE00EE667A /* UIKit.framework */,
@@ -339,6 +345,7 @@
 		E1B7719A176C59E50065C5CC /* vendor */ = {
 			isa = PBXGroup;
 			children = (
+				E1B771BD176CAE730065C5CC /* zinnia.xcodeproj */,
 				E1B7719B176C59E50065C5CC /* AquesTalk */,
 			);
 			path = vendor;
@@ -389,14 +396,6 @@
 			name = Canvas;
 			sourceTree = "<group>";
 		};
-		E1B771BE176CAE730065C5CC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E1B771C2176CAE730065C5CC /* libzinnia.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E1B771E9176D1DB50065C5CC /* Setting */ = {
 			isa = PBXGroup;
 			children = (
@@ -421,6 +420,14 @@
 			name = Examination;
 			sourceTree = "<group>";
 		};
+		E1F98E62176DAAF5005789A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F98E66176DAAF5005789A2 /* libzinnia.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -437,6 +444,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E1F98E68176DAB8D005789A2 /* PBXTargetDependency */,
 			);
 			name = AgeExamination;
 			productName = AgeExamination;
@@ -486,7 +494,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = E1B771BE176CAE730065C5CC /* Products */;
+					ProductGroup = E1F98E62176DAAF5005789A2 /* Products */;
 					ProjectRef = E1B771BD176CAE730065C5CC /* zinnia.xcodeproj */;
 				},
 			);
@@ -499,11 +507,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E1B771C2176CAE730065C5CC /* libzinnia.a */ = {
+		E1F98E66176DAAF5005789A2 /* libzinnia.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libzinnia.a;
-			remoteRef = E1B771C1176CAE730065C5CC /* PBXContainerItemProxy */;
+			remoteRef = E1F98E65176DAAF5005789A2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -664,6 +672,11 @@
 			isa = PBXTargetDependency;
 			target = E15DEDA9176C1CAE00EE667A /* AgeExamination */;
 			targetProxy = E15DEDD5176C1CAF00EE667A /* PBXContainerItemProxy */;
+		};
+		E1F98E68176DAB8D005789A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zinnia;
+			targetProxy = E1F98E67176DAB8D005789A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
