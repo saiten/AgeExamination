@@ -8,6 +8,7 @@
 
 #import "AEAppDelegate.h"
 #import "AEUser.h"
+#import "AEShareKitConfigurator.h"
 
 @implementation AEAppDelegate
 
@@ -15,10 +16,10 @@
 {
     [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"AgeExamination.sqlite"];
     
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-
+    AEShareKitConfigurator *configurator = [[AEShareKitConfigurator alloc] init];
+    [SHKConfiguration sharedInstanceWithConfigurator:configurator];
+    
+    
     return YES;
 }
 
@@ -40,24 +41,7 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    [self saveContext];
-}
-
-- (void)saveContext
-{
-    [self.managedObjectContext saveToPersistentStoreAndWait];
-}
-
-#pragma mark - Core Data stack
-
-- (NSManagedObjectContext *)managedObjectContext
-{
-    return [NSManagedObjectContext defaultContext];
-}
-
-- (NSManagedObjectModel *)managedObjectModel
-{
-    return [NSManagedObjectModel defaultManagedObjectModel];
+    [MagicalRecord cleanUp];
 }
 
 @end

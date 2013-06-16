@@ -9,6 +9,7 @@ extern const struct AEResultAttributes {
 	__unsafe_unretained NSString *bodyAge;
 	__unsafe_unretained NSString *brainAge;
 	__unsafe_unretained NSString *calculateScore;
+	__unsafe_unretained NSString *date;
 } AEResultAttributes;
 
 extern const struct AEResultRelationships {
@@ -19,6 +20,7 @@ extern const struct AEResultFetchedProperties {
 } AEResultFetchedProperties;
 
 @class AEUser;
+
 
 
 
@@ -94,6 +96,16 @@ extern const struct AEResultFetchedProperties {
 
 
 
+@property (nonatomic, strong) NSDate* date;
+
+
+
+//- (BOOL)validateDate:(id*)value_ error:(NSError**)error_;
+
+
+
+
+
 @property (nonatomic, strong) AEUser *user;
 
 //- (BOOL)validateUser:(id*)value_ error:(NSError**)error_;
@@ -143,6 +155,12 @@ extern const struct AEResultFetchedProperties {
 
 - (int16_t)primitiveCalculateScoreValue;
 - (void)setPrimitiveCalculateScoreValue:(int16_t)value_;
+
+
+
+
+- (NSDate*)primitiveDate;
+- (void)setPrimitiveDate:(NSDate*)value;
 
 
 

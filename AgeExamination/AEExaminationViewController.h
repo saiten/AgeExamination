@@ -1,5 +1,5 @@
 //
-//  AEAppDelegate.h
+//  AEExaminationViewController.h
 //  AgeExamination
 //
 //  Created by saiten on 2013/06/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AEAppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
+@interface AEExaminationViewController : UIViewController
+- (IBAction)pressedCancelButton:(id)sender;
 @end

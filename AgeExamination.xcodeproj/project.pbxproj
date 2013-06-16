@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		28E1C2164FE14BBCA18BA41C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4410634DE989453094E66212 /* libPods.a */; };
 		3EB44C8D8370422CAAE454AA /* libPods-AgeExaminationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC17F73CF02406C9045A176 /* libPods-AgeExaminationTests.a */; };
+		E15AA27A176D2417004C9CA8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E15AA278176D2417004C9CA8 /* Icon.png */; };
+		E15AA27B176D2417004C9CA8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E15AA279176D2417004C9CA8 /* Icon@2x.png */; };
 		E15DEDAE176C1CAE00EE667A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDAD176C1CAE00EE667A /* UIKit.framework */; };
 		E15DEDB0176C1CAE00EE667A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDAF176C1CAE00EE667A /* Foundation.framework */; };
 		E15DEDB2176C1CAE00EE667A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDB1176C1CAE00EE667A /* CoreGraphics.framework */; };
@@ -16,9 +18,6 @@
 		E15DEDBA176C1CAE00EE667A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E15DEDB8176C1CAE00EE667A /* InfoPlist.strings */; };
 		E15DEDBC176C1CAE00EE667A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDBB176C1CAE00EE667A /* main.m */; };
 		E15DEDC0176C1CAE00EE667A /* AEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDBF176C1CAE00EE667A /* AEAppDelegate.m */; };
-		E15DEDC2176C1CAE00EE667A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E15DEDC1176C1CAE00EE667A /* Default.png */; };
-		E15DEDC4176C1CAE00EE667A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E15DEDC3176C1CAE00EE667A /* Default@2x.png */; };
-		E15DEDC6176C1CAE00EE667A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E15DEDC5176C1CAE00EE667A /* Default-568h@2x.png */; };
 		E15DEDC9176C1CAE00EE667A /* AgeExamination.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDC7176C1CAE00EE667A /* AgeExamination.xcdatamodeld */; };
 		E15DEDD1176C1CAF00EE667A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDD0176C1CAF00EE667A /* SenTestingKit.framework */; };
 		E15DEDD2176C1CAF00EE667A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DEDAD176C1CAE00EE667A /* UIKit.framework */; };
@@ -34,7 +33,40 @@
 		E15DEDF6176C203100EE667A /* AEResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDEE176C203100EE667A /* AEResult.m */; };
 		E15DEDF7176C203100EE667A /* AEUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDF0176C203100EE667A /* AEUser.m */; };
 		E15DEDF8176C203100EE667A /* AEUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DEDF0176C203100EE667A /* AEUser.m */; };
+		E1B7719E176C59E50065C5CC /* libAquesTalk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B7719D176C59E50065C5CC /* libAquesTalk.a */; };
+		E1B771A0176C5B4E0065C5CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B7719F176C5B4E0065C5CC /* AudioToolbox.framework */; };
+		E1B771A2176C5C320065C5CC /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B771A1176C5C320065C5CC /* libstdc++.dylib */; };
+		E1B771A5176C971B0065C5CC /* CalculateTestTutorial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B771A4176C971B0065C5CC /* CalculateTestTutorial@2x.png */; };
+		E1B771A8176C9A970065C5CC /* AECalculateTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771A7176C9A970065C5CC /* AECalculateTestViewController.m */; };
+		E1B771AC176CA2870065C5CC /* AECalculateExam.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771AB176CA2870065C5CC /* AECalculateExam.m */; };
+		E1B771B1176CABE20065C5CC /* correct@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B771AF176CABE20065C5CC /* correct@2x.png */; };
+		E1B771B2176CABE20065C5CC /* wrong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B771B0176CABE20065C5CC /* wrong@2x.png */; };
+		E1B771B5176CAD2B0065C5CC /* AECanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771B4176CAD2A0065C5CC /* AECanvasView.m */; };
+		E1B771BB176CAE2F0065C5CC /* ZinniaRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771B8176CAE2F0065C5CC /* ZinniaRecognizer.m */; };
+		E1B771BC176CAE2F0065C5CC /* ZinniaResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771BA176CAE2F0065C5CC /* ZinniaResult.m */; };
+		E1B771C3176CAE7F0065C5CC /* libzinnia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B771C2176CAE730065C5CC /* libzinnia.a */; };
+		E1B771C5176CAF500065C5CC /* number.model in Resources */ = {isa = PBXBuildFile; fileRef = E1B771C4176CAF500065C5CC /* number.model */; };
+		E1B771C8176CB78E0065C5CC /* AECalculateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771C7176CB78D0065C5CC /* AECalculateCell.m */; };
+		E1B771CB176CBFF30065C5CC /* AETalk.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771CA176CBFF30065C5CC /* AETalk.m */; };
+		E1B771CE176CD9200065C5CC /* AEResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771CD176CD91F0065C5CC /* AEResultViewController.m */; };
+		E1B771D1176CDDF40065C5CC /* AESettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771D0176CDDF30065C5CC /* AESettingViewController.m */; };
+		E1B771D4176CE18B0065C5CC /* AEUserSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771D3176CE18B0065C5CC /* AEUserSettingViewController.m */; };
+		E1B771D7176CE42A0065C5CC /* AEDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771D6176CE4290065C5CC /* AEDatePickerViewController.m */; };
+		E1B771DA176CEB600065C5CC /* AEEasyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771D9176CEB600065C5CC /* AEEasyUser.m */; };
+		E1B771DD176CED5E0065C5CC /* AEEasyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771DC176CED5E0065C5CC /* AEEasyResult.m */; };
+		E1B771E0176CEFDC0065C5CC /* NSDate+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771DF176CEFDA0065C5CC /* NSDate+Util.m */; };
+		E1B771E6176D01310065C5CC /* AEEasyExamination.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771E5176D01310065C5CC /* AEEasyExamination.m */; };
+		E1B771E8176D18830065C5CC /* cleared@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B771E7176D18830065C5CC /* cleared@2x.png */; };
+		E1B771ED176D1E250065C5CC /* AEShareKitConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B771EC176D1E240065C5CC /* AEShareKitConfigurator.m */; };
 		E1EEBC20176C25F00048A22B /* AgeExamination.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EEBC1F176C25F00048A22B /* AgeExamination.storyboard */; };
+		E1EEBC23176C2A7E0048A22B /* AEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EEBC22176C2A7E0048A22B /* AEMainViewController.m */; };
+		E1EEBC28176C34E60048A22B /* BalanceTestTutorial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1EEBC24176C34E60048A22B /* BalanceTestTutorial@2x.png */; };
+		E1EEBC29176C34E60048A22B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1EEBC25176C34E60048A22B /* Default-568h@2x.png */; };
+		E1EEBC2A176C34E60048A22B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E1EEBC26176C34E60048A22B /* Default.png */; };
+		E1EEBC2B176C34E60048A22B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1EEBC27176C34E60048A22B /* Default@2x.png */; };
+		E1EEBC2E176C3A8B0048A22B /* AEBalanceTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EEBC2D176C3A8B0048A22B /* AEBalanceTestViewController.m */; };
+		E1EEBC31176C3AAD0048A22B /* AEExaminationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EEBC30176C3AAD0048A22B /* AEExaminationViewController.m */; };
+		E1EEBC33176C40160048A22B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EEBC32176C40160048A22B /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +77,21 @@
 			remoteGlobalIDString = E15DEDA9176C1CAE00EE667A;
 			remoteInfo = AgeExamination;
 		};
+		E1B771C1176CAE730065C5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B771BD176CAE730065C5CC /* zinnia.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = zinnia;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4410634DE989453094E66212 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C34BB2BA5548709EF4BAFB /* Pods-AgeExaminationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgeExaminationTests.xcconfig"; path = "Pods/Pods-AgeExaminationTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		AAC17F73CF02406C9045A176 /* libPods-AgeExaminationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgeExaminationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15AA278176D2417004C9CA8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		E15AA279176D2417004C9CA8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		E15DEDAA176C1CAE00EE667A /* AgeExamination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeExamination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15DEDAD176C1CAE00EE667A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E15DEDAF176C1CAE00EE667A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +103,6 @@
 		E15DEDBD176C1CAE00EE667A /* AgeExamination-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AgeExamination-Prefix.pch"; sourceTree = "<group>"; };
 		E15DEDBE176C1CAE00EE667A /* AEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEAppDelegate.h; sourceTree = "<group>"; };
 		E15DEDBF176C1CAE00EE667A /* AEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEAppDelegate.m; sourceTree = "<group>"; };
-		E15DEDC1176C1CAE00EE667A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		E15DEDC3176C1CAE00EE667A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		E15DEDC5176C1CAE00EE667A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E15DEDC8176C1CAE00EE667A /* AgeExamination.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AgeExamination.xcdatamodel; sourceTree = "<group>"; };
 		E15DEDCF176C1CAF00EE667A /* AgeExaminationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeExaminationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15DEDD0176C1CAF00EE667A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -80,7 +118,60 @@
 		E15DEDEE176C203100EE667A /* AEResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEResult.m; sourceTree = "<group>"; };
 		E15DEDEF176C203100EE667A /* AEUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEUser.h; sourceTree = "<group>"; };
 		E15DEDF0176C203100EE667A /* AEUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEUser.m; sourceTree = "<group>"; };
+		E1B7719C176C59E50065C5CC /* AquesTalk_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AquesTalk_iPhone.h; sourceTree = "<group>"; };
+		E1B7719D176C59E50065C5CC /* libAquesTalk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAquesTalk.a; sourceTree = "<group>"; };
+		E1B7719F176C5B4E0065C5CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E1B771A1176C5C320065C5CC /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		E1B771A4176C971B0065C5CC /* CalculateTestTutorial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CalculateTestTutorial@2x.png"; path = "Resources/CalculateTestTutorial@2x.png"; sourceTree = "<group>"; };
+		E1B771A6176C9A970065C5CC /* AECalculateTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AECalculateTestViewController.h; sourceTree = "<group>"; };
+		E1B771A7176C9A970065C5CC /* AECalculateTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AECalculateTestViewController.m; sourceTree = "<group>"; };
+		E1B771AA176CA2870065C5CC /* AECalculateExam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AECalculateExam.h; sourceTree = "<group>"; };
+		E1B771AB176CA2870065C5CC /* AECalculateExam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AECalculateExam.m; sourceTree = "<group>"; };
+		E1B771AF176CABE20065C5CC /* correct@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "correct@2x.png"; path = "Resources/correct@2x.png"; sourceTree = "<group>"; };
+		E1B771B0176CABE20065C5CC /* wrong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wrong@2x.png"; path = "Resources/wrong@2x.png"; sourceTree = "<group>"; };
+		E1B771B3176CAD2A0065C5CC /* AECanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AECanvasView.h; sourceTree = "<group>"; };
+		E1B771B4176CAD2A0065C5CC /* AECanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AECanvasView.m; sourceTree = "<group>"; };
+		E1B771B7176CAE2F0065C5CC /* ZinniaRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZinniaRecognizer.h; sourceTree = "<group>"; };
+		E1B771B8176CAE2F0065C5CC /* ZinniaRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZinniaRecognizer.m; sourceTree = "<group>"; };
+		E1B771B9176CAE2F0065C5CC /* ZinniaResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZinniaResult.h; sourceTree = "<group>"; };
+		E1B771BA176CAE2F0065C5CC /* ZinniaResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZinniaResult.m; sourceTree = "<group>"; };
+		E1B771BD176CAE730065C5CC /* zinnia.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zinnia.xcodeproj; path = vendor/zinnia/zinnia.xcodeproj; sourceTree = "<group>"; };
+		E1B771C4176CAF500065C5CC /* number.model */ = {isa = PBXFileReference; lastKnownFileType = file; name = number.model; path = Resources/number.model; sourceTree = "<group>"; };
+		E1B771C6176CB78D0065C5CC /* AECalculateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AECalculateCell.h; sourceTree = "<group>"; };
+		E1B771C7176CB78D0065C5CC /* AECalculateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AECalculateCell.m; sourceTree = "<group>"; };
+		E1B771C9176CBFF20065C5CC /* AETalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AETalk.h; sourceTree = "<group>"; };
+		E1B771CA176CBFF30065C5CC /* AETalk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AETalk.m; sourceTree = "<group>"; };
+		E1B771CC176CD91E0065C5CC /* AEResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEResultViewController.h; sourceTree = "<group>"; };
+		E1B771CD176CD91F0065C5CC /* AEResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEResultViewController.m; sourceTree = "<group>"; };
+		E1B771CF176CDDF30065C5CC /* AESettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESettingViewController.h; sourceTree = "<group>"; };
+		E1B771D0176CDDF30065C5CC /* AESettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESettingViewController.m; sourceTree = "<group>"; };
+		E1B771D2176CE18A0065C5CC /* AEUserSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEUserSettingViewController.h; sourceTree = "<group>"; };
+		E1B771D3176CE18B0065C5CC /* AEUserSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEUserSettingViewController.m; sourceTree = "<group>"; };
+		E1B771D5176CE4280065C5CC /* AEDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEDatePickerViewController.h; sourceTree = "<group>"; };
+		E1B771D6176CE4290065C5CC /* AEDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEDatePickerViewController.m; sourceTree = "<group>"; };
+		E1B771D8176CEB600065C5CC /* AEEasyUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEEasyUser.h; sourceTree = "<group>"; };
+		E1B771D9176CEB600065C5CC /* AEEasyUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEEasyUser.m; sourceTree = "<group>"; };
+		E1B771DB176CED5D0065C5CC /* AEEasyResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEEasyResult.h; sourceTree = "<group>"; };
+		E1B771DC176CED5E0065C5CC /* AEEasyResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEEasyResult.m; sourceTree = "<group>"; };
+		E1B771DE176CEFD90065C5CC /* NSDate+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Util.h"; sourceTree = "<group>"; };
+		E1B771DF176CEFDA0065C5CC /* NSDate+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Util.m"; sourceTree = "<group>"; };
+		E1B771E4176D01310065C5CC /* AEEasyExamination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEEasyExamination.h; sourceTree = "<group>"; };
+		E1B771E5176D01310065C5CC /* AEEasyExamination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEEasyExamination.m; sourceTree = "<group>"; };
+		E1B771E7176D18830065C5CC /* cleared@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cleared@2x.png"; path = "Resources/cleared@2x.png"; sourceTree = "<group>"; };
+		E1B771EB176D1E230065C5CC /* AEShareKitConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEShareKitConfigurator.h; sourceTree = "<group>"; };
+		E1B771EC176D1E240065C5CC /* AEShareKitConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEShareKitConfigurator.m; sourceTree = "<group>"; };
 		E1EEBC1F176C25F00048A22B /* AgeExamination.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AgeExamination.storyboard; sourceTree = "<group>"; };
+		E1EEBC21176C2A7D0048A22B /* AEMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEMainViewController.h; sourceTree = "<group>"; };
+		E1EEBC22176C2A7E0048A22B /* AEMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEMainViewController.m; sourceTree = "<group>"; };
+		E1EEBC24176C34E60048A22B /* BalanceTestTutorial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BalanceTestTutorial@2x.png"; path = "Resources/BalanceTestTutorial@2x.png"; sourceTree = "<group>"; };
+		E1EEBC25176C34E60048A22B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		E1EEBC26176C34E60048A22B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		E1EEBC27176C34E60048A22B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
+		E1EEBC2C176C3A8B0048A22B /* AEBalanceTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEBalanceTestViewController.h; sourceTree = "<group>"; };
+		E1EEBC2D176C3A8B0048A22B /* AEBalanceTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEBalanceTestViewController.m; sourceTree = "<group>"; };
+		E1EEBC2F176C3AAD0048A22B /* AEExaminationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEExaminationViewController.h; sourceTree = "<group>"; };
+		E1EEBC30176C3AAD0048A22B /* AEExaminationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEExaminationViewController.m; sourceTree = "<group>"; };
+		E1EEBC32176C40160048A22B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		F6358D39D38F454EB7B677BB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -89,11 +180,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B771C3176CAE7F0065C5CC /* libzinnia.a in Frameworks */,
+				E1B771A2176C5C320065C5CC /* libstdc++.dylib in Frameworks */,
+				E1B771A0176C5B4E0065C5CC /* AudioToolbox.framework in Frameworks */,
+				E1EEBC33176C40160048A22B /* CoreMotion.framework in Frameworks */,
 				E15DEDAE176C1CAE00EE667A /* UIKit.framework in Frameworks */,
 				E15DEDB0176C1CAE00EE667A /* Foundation.framework in Frameworks */,
 				E15DEDB2176C1CAE00EE667A /* CoreGraphics.framework in Frameworks */,
 				E15DEDB4176C1CAE00EE667A /* CoreData.framework in Frameworks */,
 				28E1C2164FE14BBCA18BA41C /* libPods.a in Frameworks */,
+				E1B7719E176C59E50065C5CC /* libAquesTalk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +211,7 @@
 		E15DEDA1176C1CAE00EE667A = {
 			isa = PBXGroup;
 			children = (
+				E1B7719A176C59E50065C5CC /* vendor */,
 				E15DEDB5176C1CAE00EE667A /* AgeExamination */,
 				E15DEDD7176C1CAF00EE667A /* AgeExaminationTests */,
 				E15DEDAC176C1CAE00EE667A /* Frameworks */,
@@ -136,6 +233,10 @@
 		E15DEDAC176C1CAE00EE667A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E1B771A1176C5C320065C5CC /* libstdc++.dylib */,
+				E1B771BD176CAE730065C5CC /* zinnia.xcodeproj */,
+				E1B7719F176C5B4E0065C5CC /* AudioToolbox.framework */,
+				E1EEBC32176C40160048A22B /* CoreMotion.framework */,
 				E15DEDAD176C1CAE00EE667A /* UIKit.framework */,
 				E15DEDAF176C1CAE00EE667A /* Foundation.framework */,
 				E15DEDB1176C1CAE00EE667A /* CoreGraphics.framework */,
@@ -150,12 +251,24 @@
 		E15DEDB5176C1CAE00EE667A /* AgeExamination */ = {
 			isa = PBXGroup;
 			children = (
-				E15DEDE8176C203100EE667A /* Models */,
+				E15DEDB6176C1CAE00EE667A /* Supporting Files */,
+				E15DEDE8176C203100EE667A /* CoreDataModels */,
+				E1B771DE176CEFD90065C5CC /* NSDate+Util.h */,
+				E1B771DF176CEFDA0065C5CC /* NSDate+Util.m */,
+				E1B771EB176D1E230065C5CC /* AEShareKitConfigurator.h */,
+				E1B771EC176D1E240065C5CC /* AEShareKitConfigurator.m */,
 				E15DEDBE176C1CAE00EE667A /* AEAppDelegate.h */,
 				E15DEDBF176C1CAE00EE667A /* AEAppDelegate.m */,
 				E15DEDC7176C1CAE00EE667A /* AgeExamination.xcdatamodeld */,
-				E15DEDB6176C1CAE00EE667A /* Supporting Files */,
 				E1EEBC1F176C25F00048A22B /* AgeExamination.storyboard */,
+				E1B771C9176CBFF20065C5CC /* AETalk.h */,
+				E1B771CA176CBFF30065C5CC /* AETalk.m */,
+				E1EEBC21176C2A7D0048A22B /* AEMainViewController.h */,
+				E1EEBC22176C2A7E0048A22B /* AEMainViewController.m */,
+				E1B771EA176D1DE20065C5CC /* Examination */,
+				E1B771E9176D1DB50065C5CC /* Setting */,
+				E1B771AE176CAB6E0065C5CC /* BalanceTest */,
+				E1B771AD176CAB5D0065C5CC /* CalculateTest */,
 			);
 			path = AgeExamination;
 			sourceTree = "<group>";
@@ -167,9 +280,17 @@
 				E15DEDB8176C1CAE00EE667A /* InfoPlist.strings */,
 				E15DEDBB176C1CAE00EE667A /* main.m */,
 				E15DEDBD176C1CAE00EE667A /* AgeExamination-Prefix.pch */,
-				E15DEDC1176C1CAE00EE667A /* Default.png */,
-				E15DEDC3176C1CAE00EE667A /* Default@2x.png */,
-				E15DEDC5176C1CAE00EE667A /* Default-568h@2x.png */,
+				E1EEBC24176C34E60048A22B /* BalanceTestTutorial@2x.png */,
+				E1B771A4176C971B0065C5CC /* CalculateTestTutorial@2x.png */,
+				E1EEBC25176C34E60048A22B /* Default-568h@2x.png */,
+				E1EEBC26176C34E60048A22B /* Default.png */,
+				E1EEBC27176C34E60048A22B /* Default@2x.png */,
+				E1B771AF176CABE20065C5CC /* correct@2x.png */,
+				E1B771B0176CABE20065C5CC /* wrong@2x.png */,
+				E1B771E7176D18830065C5CC /* cleared@2x.png */,
+				E1B771C4176CAF500065C5CC /* number.model */,
+				E15AA278176D2417004C9CA8 /* Icon.png */,
+				E15AA279176D2417004C9CA8 /* Icon@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -177,9 +298,9 @@
 		E15DEDD7176C1CAF00EE667A /* AgeExaminationTests */ = {
 			isa = PBXGroup;
 			children = (
+				E15DEDD8176C1CAF00EE667A /* Supporting Files */,
 				E15DEDDD176C1CAF00EE667A /* AgeExaminationTests.h */,
 				E15DEDDE176C1CAF00EE667A /* AgeExaminationTests.m */,
-				E15DEDD8176C1CAF00EE667A /* Supporting Files */,
 			);
 			path = AgeExaminationTests;
 			sourceTree = "<group>";
@@ -193,7 +314,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E15DEDE8176C203100EE667A /* Models */ = {
+		E15DEDE8176C203100EE667A /* CoreDataModels */ = {
 			isa = PBXGroup;
 			children = (
 				E15DEDE9176C203100EE667A /* _AEResult.h */,
@@ -204,8 +325,100 @@
 				E15DEDEE176C203100EE667A /* AEResult.m */,
 				E15DEDEF176C203100EE667A /* AEUser.h */,
 				E15DEDF0176C203100EE667A /* AEUser.m */,
+				E1B771D8176CEB600065C5CC /* AEEasyUser.h */,
+				E1B771D9176CEB600065C5CC /* AEEasyUser.m */,
+				E1B771DB176CED5D0065C5CC /* AEEasyResult.h */,
+				E1B771DC176CED5E0065C5CC /* AEEasyResult.m */,
+				E1B771E4176D01310065C5CC /* AEEasyExamination.h */,
+				E1B771E5176D01310065C5CC /* AEEasyExamination.m */,
 			);
+			name = CoreDataModels;
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E1B7719A176C59E50065C5CC /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				E1B7719B176C59E50065C5CC /* AquesTalk */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		E1B7719B176C59E50065C5CC /* AquesTalk */ = {
+			isa = PBXGroup;
+			children = (
+				E1B7719C176C59E50065C5CC /* AquesTalk_iPhone.h */,
+				E1B7719D176C59E50065C5CC /* libAquesTalk.a */,
+			);
+			path = AquesTalk;
+			sourceTree = "<group>";
+		};
+		E1B771AD176CAB5D0065C5CC /* CalculateTest */ = {
+			isa = PBXGroup;
+			children = (
+				E1B771AA176CA2870065C5CC /* AECalculateExam.h */,
+				E1B771AB176CA2870065C5CC /* AECalculateExam.m */,
+				E1B771A6176C9A970065C5CC /* AECalculateTestViewController.h */,
+				E1B771A7176C9A970065C5CC /* AECalculateTestViewController.m */,
+				E1B771C6176CB78D0065C5CC /* AECalculateCell.h */,
+				E1B771C7176CB78D0065C5CC /* AECalculateCell.m */,
+				E1B771B6176CAE090065C5CC /* Canvas */,
+			);
+			name = CalculateTest;
+			sourceTree = "<group>";
+		};
+		E1B771AE176CAB6E0065C5CC /* BalanceTest */ = {
+			isa = PBXGroup;
+			children = (
+				E1EEBC2C176C3A8B0048A22B /* AEBalanceTestViewController.h */,
+				E1EEBC2D176C3A8B0048A22B /* AEBalanceTestViewController.m */,
+			);
+			name = BalanceTest;
+			sourceTree = "<group>";
+		};
+		E1B771B6176CAE090065C5CC /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				E1B771B3176CAD2A0065C5CC /* AECanvasView.h */,
+				E1B771B4176CAD2A0065C5CC /* AECanvasView.m */,
+				E1B771B7176CAE2F0065C5CC /* ZinniaRecognizer.h */,
+				E1B771B8176CAE2F0065C5CC /* ZinniaRecognizer.m */,
+				E1B771B9176CAE2F0065C5CC /* ZinniaResult.h */,
+				E1B771BA176CAE2F0065C5CC /* ZinniaResult.m */,
+			);
+			name = Canvas;
+			sourceTree = "<group>";
+		};
+		E1B771BE176CAE730065C5CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1B771C2176CAE730065C5CC /* libzinnia.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1B771E9176D1DB50065C5CC /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E1B771CF176CDDF30065C5CC /* AESettingViewController.h */,
+				E1B771D0176CDDF30065C5CC /* AESettingViewController.m */,
+				E1B771D2176CE18A0065C5CC /* AEUserSettingViewController.h */,
+				E1B771D3176CE18B0065C5CC /* AEUserSettingViewController.m */,
+				E1B771D5176CE4280065C5CC /* AEDatePickerViewController.h */,
+				E1B771D6176CE4290065C5CC /* AEDatePickerViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		E1B771EA176D1DE20065C5CC /* Examination */ = {
+			isa = PBXGroup;
+			children = (
+				E1EEBC2F176C3AAD0048A22B /* AEExaminationViewController.h */,
+				E1EEBC30176C3AAD0048A22B /* AEExaminationViewController.m */,
+				E1B771CC176CD91E0065C5CC /* AEResultViewController.h */,
+				E1B771CD176CD91F0065C5CC /* AEResultViewController.m */,
+			);
+			name = Examination;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +484,12 @@
 			mainGroup = E15DEDA1176C1CAE00EE667A;
 			productRefGroup = E15DEDAB176C1CAE00EE667A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E1B771BE176CAE730065C5CC /* Products */;
+					ProjectRef = E1B771BD176CAE730065C5CC /* zinnia.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E15DEDA9176C1CAE00EE667A /* AgeExamination */,
@@ -279,16 +498,34 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		E1B771C2176CAE730065C5CC /* libzinnia.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzinnia.a;
+			remoteRef = E1B771C1176CAE730065C5CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		E15DEDA8176C1CAE00EE667A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E15DEDBA176C1CAE00EE667A /* InfoPlist.strings in Resources */,
-				E15DEDC2176C1CAE00EE667A /* Default.png in Resources */,
-				E15DEDC4176C1CAE00EE667A /* Default@2x.png in Resources */,
-				E15DEDC6176C1CAE00EE667A /* Default-568h@2x.png in Resources */,
 				E1EEBC20176C25F00048A22B /* AgeExamination.storyboard in Resources */,
+				E1EEBC28176C34E60048A22B /* BalanceTestTutorial@2x.png in Resources */,
+				E1EEBC29176C34E60048A22B /* Default-568h@2x.png in Resources */,
+				E1EEBC2A176C34E60048A22B /* Default.png in Resources */,
+				E1EEBC2B176C34E60048A22B /* Default@2x.png in Resources */,
+				E1B771A5176C971B0065C5CC /* CalculateTestTutorial@2x.png in Resources */,
+				E1B771B1176CABE20065C5CC /* correct@2x.png in Resources */,
+				E1B771B2176CABE20065C5CC /* wrong@2x.png in Resources */,
+				E1B771C5176CAF500065C5CC /* number.model in Resources */,
+				E1B771E8176D18830065C5CC /* cleared@2x.png in Resources */,
+				E15AA27A176D2417004C9CA8 /* Icon.png in Resources */,
+				E15AA27B176D2417004C9CA8 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +623,25 @@
 				E15DEDF3176C203100EE667A /* _AEUser.m in Sources */,
 				E15DEDF5176C203100EE667A /* AEResult.m in Sources */,
 				E15DEDF7176C203100EE667A /* AEUser.m in Sources */,
+				E1EEBC23176C2A7E0048A22B /* AEMainViewController.m in Sources */,
+				E1EEBC2E176C3A8B0048A22B /* AEBalanceTestViewController.m in Sources */,
+				E1EEBC31176C3AAD0048A22B /* AEExaminationViewController.m in Sources */,
+				E1B771A8176C9A970065C5CC /* AECalculateTestViewController.m in Sources */,
+				E1B771AC176CA2870065C5CC /* AECalculateExam.m in Sources */,
+				E1B771B5176CAD2B0065C5CC /* AECanvasView.m in Sources */,
+				E1B771BB176CAE2F0065C5CC /* ZinniaRecognizer.m in Sources */,
+				E1B771BC176CAE2F0065C5CC /* ZinniaResult.m in Sources */,
+				E1B771C8176CB78E0065C5CC /* AECalculateCell.m in Sources */,
+				E1B771CB176CBFF30065C5CC /* AETalk.m in Sources */,
+				E1B771CE176CD9200065C5CC /* AEResultViewController.m in Sources */,
+				E1B771D1176CDDF40065C5CC /* AESettingViewController.m in Sources */,
+				E1B771D4176CE18B0065C5CC /* AEUserSettingViewController.m in Sources */,
+				E1B771D7176CE42A0065C5CC /* AEDatePickerViewController.m in Sources */,
+				E1B771DA176CEB600065C5CC /* AEEasyUser.m in Sources */,
+				E1B771DD176CED5E0065C5CC /* AEEasyResult.m in Sources */,
+				E1B771E0176CEFDC0065C5CC /* NSDate+Util.m in Sources */,
+				E1B771E6176D01310065C5CC /* AEEasyExamination.m in Sources */,
+				E1B771ED176D1E250065C5CC /* AEShareKitConfigurator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +712,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -480,7 +736,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -493,8 +749,19 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AgeExamination/AgeExamination-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_HEADERS_SEARCH_PATHS}",
+					vendor/zinnia,
+				);
 				INFOPLIST_FILE = "AgeExamination/AgeExamination-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor/AquesTalk\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -503,10 +770,24 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6358D39D38F454EB7B677BB /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tomoaki Shibata";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tomoaki Shibata";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AgeExamination/AgeExamination-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_HEADERS_SEARCH_PATHS}",
+					vendor/zinnia,
+				);
 				INFOPLIST_FILE = "AgeExamination/AgeExamination-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor/AquesTalk\"",
+				);
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "FDFEFBCB-F722-42A0-A13F-80FA4DCCE1D2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FDFEFBCB-F722-42A0-A13F-80FA4DCCE1D2";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

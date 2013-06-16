@@ -5,6 +5,7 @@
         <attribute name="bodyAge" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="brainAge" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="calculateScore" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
         <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="results" inverseEntity="User" syncable="YES"/>
     </entity>
     <entity name="User" representedClassName="AEUser" syncable="YES">
@@ -14,7 +15,7 @@
         <relationship name="results" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Result" inverseName="user" inverseEntity="Result" syncable="YES"/>
     </entity>
     <elements>
+        <element name="Result" positionX="160" positionY="192" width="128" height="135"/>
         <element name="User" positionX="160" positionY="192" width="128" height="105"/>
-        <element name="Result" positionX="160" positionY="192" width="128" height="120"/>
     </elements>
 </model>

@@ -7,3 +7,4 @@ Pods/Pods.xcodeproj/xcuserdata
 Pods
 Podfile.lock
 .DS_Store
+vendor/AquesTalk/*

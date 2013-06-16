@@ -8,6 +8,7 @@ const struct AEResultAttributes AEResultAttributes = {
 	.bodyAge = @"bodyAge",
 	.brainAge = @"brainAge",
 	.calculateScore = @"calculateScore",
+	.date = @"date",
 };
 
 const struct AEResultRelationships AEResultRelationships = {
@@ -169,6 +170,13 @@ const struct AEResultFetchedProperties AEResultFetchedProperties = {
 - (void)setPrimitiveCalculateScoreValue:(int16_t)value_ {
 	[self setPrimitiveCalculateScore:[NSNumber numberWithShort:value_]];
 }
+
+
+
+
+
+@dynamic date;
+
 
 
 
